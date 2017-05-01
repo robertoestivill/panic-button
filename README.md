@@ -10,8 +10,7 @@ The application supports a `short press` and a `long press` of the hardware butt
 The `short press` will trigger an SMS, while a `long press` will trigger a phone call request.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t-7_qHqTxUA" frameborder="0" allowfullscreen></iframe>
-
+[![Panic Button - Android things application](https://img.youtube.com/vi/t-7_qHqTxUA/0.jpg)](https://www.youtube.com/watch?v=t-7_qHqTxUA)
 
 
 ## Hardware
