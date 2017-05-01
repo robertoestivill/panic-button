@@ -1,4 +1,4 @@
-`Panic Button` is an Android application that targets `Android Things` that integrates with [Twilio](https://twilio.com) to perform phone calls or send SMS's when a physical button is pressed.
+`Panic Button` is an Android application that targets [Android Things](https://developer.android.com/things/hardware/index.html) that integrates with [Twilio](https://twilio.com) to perform phone calls or send SMS's when a physical button is pressed.
 
 This project is based on the [SimplePio](https://github.com/androidthings/sample-simplepio) sample open sourced by Google.
 
@@ -9,19 +9,19 @@ The application supports a `short press` and a `long press` of the hardware butt
 
 The `short press` will trigger an SMS, while a `long press` will trigger a phone call request.
 
-
-[![Panic Button - Android things application](https://img.youtube.com/vi/t-7_qHqTxUA/0.jpg)](https://www.youtube.com/watch?v=t-7_qHqTxUA)
-
+<a href="https://www.youtube.com/watch?v=t-7_qHqTxUA" target="_blank">
+  <img src="https://img.youtube.com/vi/t-7_qHqTxUA/0.jpg" height="200" />
+</a>
 
 ## Hardware
 
 The hardware and circuit is the exact same than the [SimplePio](https://github.com/androidthings/sample-simplepio) project.
 
-<a href="https://github.com/androidthings/sample-simplepio/raw/master/blink/edison_schematics.png">
-<img src="https://github.com/androidthings/sample-simplepio/raw/master/blink/edison_schematics.png" height="200" /> 
+<a href="https://github.com/androidthings/sample-simplepio/raw/master/blink/edison_schematics.png" target="_blank">
+  <img src="https://github.com/androidthings/sample-simplepio/raw/master/blink/edison_schematics.png" height="200" />
 </a>
-<a href="https://github.com/androidthings/sample-simplepio/raw/master/blink/rpi3_schematics.png">
-<img src="https://github.com/androidthings/sample-simplepio/raw/master/blink/rpi3_schematics.png" height="200" />
+<a href="https://github.com/androidthings/sample-simplepio/raw/master/blink/rpi3_schematics.png" target="_blank">
+  <img src="https://github.com/androidthings/sample-simplepio/raw/master/blink/rpi3_schematics.png" height="200" />
 </a>
 
 
