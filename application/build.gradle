@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+  compileSdkVersion 25
+  buildToolsVersion '25.0.2'
+
+  defaultConfig {
+    applicationId "com.robertoestivill.panicbutton"
+    minSdkVersion 24
+    targetSdkVersion 25
+    versionCode 1
+    versionName "1.0"
+
+    buildConfigField "String", "PHONE_NUMBER_FROM", PANIC_BUTTON_PHONE_NUMBER_FROM
+    buildConfigField "String", "PHONE_NUMBER_TO", PANIC_BUTTON_PHONE_NUMBER_TO
+    buildConfigField "String", "TWILIO_ACCOUNT", PANIC_BUTTON_TWILIO_ACCOUNT
+    buildConfigField "String", "TWILIO_API_KEY", PANIC_BUTTON_TWILIO_API_KEY
+    buildConfigField "String", "TWILIO_API_SECRET", PANIC_BUTTON_TWILIO_API_SECRET
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+    }
+  }
+}
+
+dependencies {
+  compile 'com.squareup.okhttp3:okhttp:3.7.0'
+
+  provided 'com.google.android.things:androidthings:0.3-devpreview'
+}
