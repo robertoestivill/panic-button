@@ -17,11 +17,11 @@ The `short press` will trigger an SMS, while a `long press` will trigger a phone
 
 The hardware and circuit is the exact same than the [SimplePio](https://github.com/androidthings/sample-simplepio) project.
 
-<a href="https://github.com/androidthings/sample-simplepio/raw/master/blink/edison_schematics.png" target="_blank">
-  <img src="https://github.com/androidthings/sample-simplepio/raw/master/blink/edison_schematics.png" height="200" />
+<a href="https://github.com/androidthings/sample-simplepio/raw/master/button/edison_schematics.png" target="_blank">
+  <img src="https://github.com/androidthings/sample-simplepio/raw/master/button/edison_schematics.png" height="200" />
 </a>
-<a href="https://github.com/androidthings/sample-simplepio/raw/master/blink/rpi3_schematics.png" target="_blank">
-  <img src="https://github.com/androidthings/sample-simplepio/raw/master/blink/rpi3_schematics.png" height="200" />
+<a href="https://github.com/androidthings/sample-simplepio/raw/master/button/rpi3_schematics.png" target="_blank">
+  <img src="https://github.com/androidthings/sample-simplepio/raw/master/button/rpi3_schematics.png" height="200" />
 </a>
 
 
